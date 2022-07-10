@@ -6,7 +6,7 @@
 
 .form label {
   display: block;
-  font: 600 1rem/1.5 "Poppins", sans-serif;
+  font: 400 1rem/1.5 "Poppins", sans-serif;
   margin-bottom: 4px;
 }
 
@@ -32,7 +32,7 @@
   outline: none;
   border-color: var(--cor-p1);
   background: var(--cor-0);
-  box-shadow:  0 0 0 2px #fea;
+  box-shadow: 0 0 0 2px #fea;
 }
 
 @media (max-width: 600px) {
