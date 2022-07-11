@@ -33,13 +33,9 @@
   position: absolute;
 }
 
-.header-menu a:hover::after {
-  content: "";
-  display: block;
-  height: 2px;
+.header-menu a:hover::after,
+.header-menu a.ativo::after {
   width: 100%;
-  background: var(--cor-0);
-  margin-top: 4px;
 }
 
 @media (max-width: 800px) {
@@ -57,6 +53,7 @@
   .header-menu a:hover {
     background-color: var(--cor-11);
   }
+
   .header-menu a:hover:after {
     display: none;
   }
