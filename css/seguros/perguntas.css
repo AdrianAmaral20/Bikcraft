@@ -25,7 +25,7 @@
   border: none;
   background: none;
   width: 100%;
-  text-align: left; 
+  text-align: left;
 }
 
 .perguntas button::before {
@@ -50,11 +50,11 @@
   transform: rotate(180deg);
 }
 
-.perguntas dd {
+.js .perguntas dd {
   display: none;
 }
 
-.perguntas dd.ativa {
+.js .perguntas dd.ativa {
   display: block;
 }
 
